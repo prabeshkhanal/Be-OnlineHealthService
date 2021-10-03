@@ -1,22 +1,3 @@
-// const authCustomer = function(req, res, next){
-//     console.log("this is for authentitaion")
-//     next();
-// }
-
-// module.exports = authCustomer;
-
-// const jwt = require('jsonwebtoken');
-
-// module.exports.verifyuser = function(req, res, next){
-//     // console.log("guard")
-//     next();
-// }
-
-// const authCustomer = function(req, res, next){
-//     console.log("this is for authentitaion")
-//     next();
-// }
-
 const jwt = require("jsonwebtoken");
 const Customer = require("../models/customerModel");
 
