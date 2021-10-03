@@ -12,5 +12,8 @@ const Booking = mongoose.model("Contact", {
   message: {
     type: String,
   },
+  description: {
+    type: String,
+  },
 });
 module.exports = Booking;
