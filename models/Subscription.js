@@ -12,5 +12,8 @@ const Subscription = mongoose.model("Contact", {
   message: {
     type: String,
   },
+  Subcriptionstatus: {
+    type: String,
+  },
 });
 module.exports = Subscription;
